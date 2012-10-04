@@ -1,0 +1,20 @@
+usage: irc_client.py [-h] [-pass PASSWORD] -nick NICKNAME -user USER_NAME
+                     -realname REALNAME [REALNAME ...] -server SERVER_NAME
+                     [-channel CHANNEL_NAME] [-channelpass CHANNEL_PASSWORD]
+
+
+
+
+Connect to a IRC server/channel.
+
+  -h, --help            show this help message and exit
+  -pass PASSWORD        client password for registered nickname
+  -nick NICKNAME        client nickname
+  -user USER_NAME       client username
+  -realname REALNAME [REALNAME ...]
+                        real name of user
+  -server SERVER_NAME   server to connect to
+  -channel CHANNEL_NAME
+                        channel to connect to (surround in quotes to use #;                             interpreted as comment otherwise)
+  -channelpass CHANNEL_PASSWORD
+                        password for the channel
